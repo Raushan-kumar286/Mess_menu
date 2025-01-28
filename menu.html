@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <STYle>
+        h1{
+            text-align: center;
+            color: rgb(145, 20, 20);
+            text-shadow: 1px 2px  purple;
+        }
+        body{
+            background-color: pink;
+        }
+      .container{
+        display: flex;
+        width: 100vw;
+        
+      }
+      
+      .days{
+        width: 13vw;
+        background-color: antiquewhite;
+  
+        font-weight: bold;
+      }
+   
+      .foods{
+        width: 100vw;
+        margin-left: 1rem;
+      }
+      .boxes{
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid black;
+        margin-left: -1rem;
+        display: flex;
+        justify-content: center;
+
+      }
+      .box1{
+        background-color:gray ;
+        margin-left: -1rem;
+        
+      }
+      .box{
+        padding: 0.7rem;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 35px;
+        font-size: 17px;
+      }
+      #day{
+        padding: 1rem;
+        border: 1px solid black;
+        height: 27px;
+        font-size: 20px;
+        text-align: center;
+        color: #000; /* Black text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    font-weight: bold; /* Makes the note more prominent */
+ 
+      }
+      .box1 div{
+        font-size: 20px;
+        text-align: center;
+        color: #000; /* Black text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    font-weight: bold; /* Makes the note more prominent */
+ 
+      }
+     
+      
+      h4{
+        position: absolute;
+      }
+      .heading{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+      }
+      .image{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+      .image2{
+        background-image: url('panner.jpeg');
+        background-size: cover;
+      }
+      .image1{
+        
+        background-image: url('chicken.jpeg');
+     background-size: cover;
+    }
+    .flower{
+        width: 100px;
+        height: 100px;
+    }
+    .flower1{
+        background-image: url('flower2.jpeg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+    .flower2{
+        background-image: url('flower.jpeg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+    }
+  
+   
+  .note{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    
+  }
+  .note p{
+    color: #000; /* Black text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    font-weight: bold; /* Makes the note more prominent */
+  }
+  @media screen and (max-width:750px){
+    .flower{
+      display: none;
+    }
+    .note{
+      flex-direction: column;
+    }
+    .box{
+      height: 45px;
+    }
+  }
+      
+    </STYle>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+<div class="heading">
+    <div class="image1 image"></div>
+    <h1>WEEKLY MESS MENU </h1>
+    <div class="image2 image"></div>
+</div>
+   <div class="container">
+    <div class="days">
+    <div id="day" >DAYS</div>
+    <div id="day">MON</div>
+    <div id="day">TUE</div>
+    <div id="day">WED</div>
+    <div id="day">THU</div>
+    <div id="day">FRI</div>
+    <div id="day">SAT</div>
+    <div id="day">SUN</div>
+    </div>
+    <div class="foods">
+        <div class="boxes box1">
+            <div style="letter-spacing: 3px; background-color:  rgb(21, 172, 232);" class="box">BREAKFAST</div>
+            <div style="letter-spacing: 3px; background-color:  pink;" class="box">LUNCH</div>
+            <div style="letter-spacing: 3px; background-color:  red;" class="box">DINNER</div>
+        </div>
+        <div class="boxes">
+            <div class="box">KACHORI(6p)</div>
+            <div class="box">RICE+Daal+ vegetable + <br> Aloo Bhujia + chips + Salad</div>
+            <div class="box">ALOO PRATHA(7p)</div>
+        </div>
+        <div class="boxes">
+            <div class="box" >ALOO PRATHA(5p)</div>
+            <div class="box">RICE+Daal+ vegetable + <br> Aloo Bhujia + chips + Salad</div>
+
+            <div class="box">PURI(10p)</div>
+        </div>
+        <div class="boxes">
+            <div class="box">CHAPATI(5p)</div>
+            <div class="box">RICE+Daal+ vegetable + <br> Aloo Bhujia + chips + Salad</div>
+            <div class="box"> SATOO PRATHA(7p)</div>
+        </div>
+        <div class="boxes" >
+            <div class="box" >PURI(7p)</div>
+            <div class="box">RICE+Daal+ vegetable + <br> Aloo Bhujia + chips + Salad</div>
+
+            <div class="box">CHAPATI(8p) + sabji + KHEER</div>
+        </div>
+        <div class="boxes" >
+            <div class="box">CHAPATI(5p)</div>
+            <div class="box">
+                <div class="un1">Rice + Egg(2p) + salad(Non-veg)<br>Rice + paneer + salad(veg)</div>
+            </div>
+            <div class="box">SATOO KACHORI(8p)</div>
+        </div>
+        <div class="boxes">
+            <div class="box" ">SATOO PRATHA(6p)</div>
+            <div class="box">Khichhdi + chips + Fried Chokha + Aachar</div>
+
+            <div class="box">LITTI(5) + Chokha</div>
+        </div>
+        <div class="boxes">
+            <div class="box">CHAPATI(5p)</div>
+            <div class="box">
+                <div class="un1">Rice + Chicken + salad(Non-veg)<br>Rice + paneer + salad(veg)</div>
+            </div>
+            <div class="box"> SATOO KACHORI(8p)</div>
+        </div>
+     <div class="flower1 flower "></div>
+     <div class="flower2 flower "></div>
+        
+    </div>
+   </div>
+   <div class="note">
+    <p>Note : - Kindly clear your plates and maintain cleanliness in the mess.</p>
+  <p>नोट:-कृपया अपनी प्लेट्स साफ करें और मेस की साफ-सफाई बनाए रखें।</p> 
+  </div>
+</body>
+</html>
